@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const images = [
-  "/images/image1.jpg",  
+  "/images/pg3.jpg",  
   "/images/image2.jpg",
   "/images/image3.jpg",
   "/images/image4.jpg",
@@ -12,20 +12,20 @@ const images = [
 
 const Slider = () => {
   return (
-    <div className="w-full max-w-4xl bg-zinc-300 h-[65vh] w-[100vh] bg-[] mx-auto mt-4"> {/* ✅ Increased height to 60vh */}
+    <div className="w-full max-w-6xl mx-auto mt-4">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
         autoplay={{ delay: 3000 }}
         loop={true}
-        className="rounded-lg shadow-lg h-full"
+        className="rounded-lg shadow-lg"
       >
         {images.map((img, index) => (
-          <SwiperSlide key={index} className="flex justify-center items-center h-full">
+          <SwiperSlide key={index} className="flex justify-center items-center">
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-content rounded-lg" // ✅ Prevents cropping
+              className="w-full h-[85vh] md:h-[70vh] sm:h-[60vh] object-content rounded-lg"
             />
           </SwiperSlide>
         ))}
