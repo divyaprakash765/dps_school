@@ -21,7 +21,7 @@ function App() {
       <Slider className=""/>
       <Category/>
       <AboutSection/>
-      <InsideSchool/>
+      <TabsComponent/>
       <PhotoGallery/>
       <Footer/>
 
