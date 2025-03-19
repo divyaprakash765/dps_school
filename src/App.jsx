@@ -1,6 +1,7 @@
 import Navbar from "./components/nav"
 import Slider from "./components/slider"
 import Category from "./components/category"
+import AboutSection from "./components/about_section"
 
 function App() {
  
@@ -16,6 +17,8 @@ function App() {
       <Navbar/>
       <Slider className=""/>
       <Category/>
+      <AboutSection/>
+
     </div>
    )
 

@@ -8,7 +8,7 @@ const categories = [
   
   const Category = () => {
     return (
-      <div className="flex justify-center gap-8 mt-12 px-4 flex-wrap">
+      <div className="flex justify-center bg-zinc-200 gap-8 mt-12 px-4 flex-wrap">
         {categories.map((item, index) => (
           <div
             key={index}
