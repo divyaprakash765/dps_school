@@ -9,7 +9,7 @@ import Footer from "./components/footer"
 function App() {
  
    return(
-    <div className="w-screen h-[400vh] bg-zinc-200">
+    <div className="w-screen h-[400vh] w-[100vw] bg-zinc-200">
       <div className="h-[20vh] ml-20 py-5 flex">
         <img src="public\images\delhi_logo.jpg" alt="" className="h-[15vh] border-2 border-black rounded-md" />
         <div className="mt-5 ml-10">
