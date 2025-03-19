@@ -2,7 +2,7 @@ import Navbar from "./components/nav"
 import Slider from "./components/slider"
 import Category from "./components/category"
 import AboutSection from "./components/about_section"
-import InsideSchool from "./components/Inside_school"
+import TabsComponent from "./components/TabsComponent"
 import PhotoGallery from "./components/photo_gallery"
 import Footer from "./components/footer"
 
