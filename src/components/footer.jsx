@@ -10,10 +10,10 @@ export default function Footer() {
         <div>
           <h3 className="text-2xl font-bold mb-3">CONTACT US ↓</h3>
           <p className="font-semibold">DELHI PUBLIC SCHOOL, </p>
-          <p>Narhan Estate,Smastipur, Bihar - 831016</p>
+          <p>Narhan Estate,Smastipur, Bihar - 848211</p>
           <p><strong>Email:</strong> <a href="mailto:dpsnarhan@gmail.com" className="underline">dpsnarhan@gmail.com</a></p>
           <p><strong>Phone:</strong> 8210202407</p>
-          <p><strong>Website:</strong> <a href="http://davnitjsr.org" className="underline">dps.org</a></p>
+          <p><strong>Website:</strong> <a href="http://davnitjsr.org" className="underline">dpsnarhan.com</a></p>
           
           {/* Social Media Icons */}
           <div className="flex gap-3 mt-4">
@@ -34,18 +34,6 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-        </div>
-
-        {/* LOCATION MAP */}
-        <div>
-          <h3 className="text-2xl font-bold mb-3">LOCATION MAP ↓</h3>
-          <iframe
-            className="w-full h-48 rounded-md"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3614818323244!2d86.20367817531382!3d22.612532979489554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e06c58bb9b5a3fb%3A0x3a6fbb11c3f254f3!2sDAV%20Public%20School%2C%20NIT%20Campus!5e0!3m2!1sen!2sin!4v1710362912345!5m2!1sen!2sin"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
         </div>
 
       </div>
