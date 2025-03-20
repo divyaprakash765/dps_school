@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // Install react-icons if needed
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
     "HOME",
-    "ABOUT US",
+    "ABOUT",
     "ACADEMIC",
     "ADMISSION",
     "ACHIEVEMENTS",
     "GALLERY",
     "FACULTY",
     "FACILITIES",
-    "CIRCULARS",
-    "HELP DESK",
+    "HELP",
   ];
 
   return (
@@ -25,9 +25,9 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-7 text-black font-semibold">
           {menuItems.map((item, index) => (
-            <li key={index} className="px-4 py-2 hover:bg-black/10 rounded-md cursor-pointer">
+            <NavLink to={`/${(item != "HOME") ? item : ""}`} key={index} className="px-4 py-2 hover:bg-black/10 rounded-md cursor-pointer">
               {item}
-            </li>
+            </NavLink>
           ))}
         </ul>
 
@@ -41,9 +41,9 @@ const Navbar = () => {
       {isOpen && (
         <ul className="md:hidden flex flex-col items-center mt-3 space-y-2 bg-white shadow-md p-4">
           {menuItems.map((item, index) => (
-            <li key={index} className="w-full text-center py-2 border-b hover:bg-gray-100 cursor-pointer">
+            <NavLink to={`/${(item != "HOME") ? item : ""}`} key={index} className="w-full text-center py-2 border-b hover:bg-gray-100 cursor-pointer">
               {item}
-            </li>
+            </NavLink>
           ))}
         </ul>
       )}

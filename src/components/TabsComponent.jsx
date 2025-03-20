@@ -3,16 +3,16 @@ import { useState } from "react";
 const tabs = ["Events", "Achievements", "Social Awareness"];
 
 const data = {
-  Events: [
-    {
-      title: "International Literacy Day",
-      desc: "Since 1967, International Literacy Day (ILD) celebrations have taken place annually...",
-      img: "https://www.universityliving.com/blog/wp-content/uploads/2024/08/International-Literacy-Day_-Blog-Banner.webp",
-    },
-  ],
   Achievements: [
     {
-      title: "Independence Day Celebration",
+      title: "हिंदुस्तान ओलंपियाड 2024",
+      desc: "आज हिंदुस्तान ओलंपियाड 2024 का रिजल्ट आया जिसमें दिल्ली पब्लिक स्कूल नरहन बिभूतिपुर  के कई सारे बच्चों ने जिला लेवल पर 1 से 100 में अपना स्थान बनाकर विद्यालय और अपने माता-पिता का नाम रोशन",
+      img: "https://www.htmedia.in/wp-content/uploads/2023/11/Hindustan-Olympiad-Banner-1-scaled-1.webp",
+    },
+  ],
+  Events: [
+    {
+      title: "हिंदुस्तान ओलंपियाड 2024",
       desc: "Independence Day is marked throughout India with flag-raising ceremonies...",
       img: "/images/image3.jpg",
     },

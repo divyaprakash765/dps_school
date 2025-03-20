@@ -2,7 +2,7 @@ const categories = [
     { title: "Contact Us", icon: "🔔", bgColor: "bg-red-500" },
     { title: "Pay School Fee Online", icon: "📄", bgColor: "bg-gray-500" },
     { title: "Student Achievements", icon: "🖥️", bgColor: "bg-green-400" },
-    { title: "Holiday Homework", icon: "📜", bgColor: "bg-red-300" },
+    { title: "Online Admission", icon: "📜", bgColor: "bg-red-300" },
     { title: "Photo Gallery", icon: "📷", bgColor: "bg-red-600" },
   ];
   

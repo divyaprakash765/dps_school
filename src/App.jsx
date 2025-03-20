@@ -5,35 +5,33 @@ import AboutSection from "./components/about_section";
 import TabsComponent from "./components/TabsComponent";
 import PhotoGallery from "./components/photo_gallery";
 import Footer from "./components/footer";
+import About from "./template/About";
+import Academic from "./template/Academic";
+import Admission from "./template/Admission";
+import { Route,Routes } from "react-router-dom";
+import Home from "./template/Home";
+import Achievement from "./template/Achievement";
+import Gallery from "./template/Gallery";
+import Facilities from "./template/Facilities";
+import Help from "./template/Help";
 
 function App() {
-  return (
-    <div className="w-full min-h-screen bg-zinc-200">
-      {/* Header Section */}
-      <div className="flex flex-col md:flex-row items-center md:items-start py-5 px-4 md:px-20">
-        {/* Logo */}
-        <img
-          src="/images/delhi_logo.jpg"
-          alt="Delhi Public School Logo"
-          className="h-20 md:h-[15vh] border-2 border-black rounded-md"
-        />
-        {/* School Info */}
-        <div className="mt-3 md:mt-5 md:ml-10 text-center md:text-left">
-          <h1 className="uppercase font-semibold text-2xl md:text-[5vh]">
-            Delhi Public School
-          </h1>
-          <h6 className="text-sm md:text-base">Narhan Estate (Samastipur)</h6>
-        </div>
-      </div>
 
-      {/* Components */}
-      <Navbar />
-      <Slider />
-      <Category />
-      <AboutSection />
-      <TabsComponent />
-      <PhotoGallery />
-      <Footer />
+
+  return (
+    <div>
+             {/* Routing */}
+             <Routes>
+             <Route path= "/" element = {<Home/>}/>
+             <Route path= "/about" element = {<About/>}/>
+             <Route path= "/academic" element = {<Academic/>}/>
+             <Route path= "/admission" element = {<Admission/>}/>
+             <Route path= "/achievements" element = {<Achievement/>}/>
+             <Route path= "/gallery" element = {<Gallery/>}/>
+             <Route path= "/facilities" element = {<Facilities/>}/>
+             <Route path= "/help" element = {<Help/>}/>
+      
+             </Routes>
     </div>
   );
 }
