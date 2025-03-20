@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const images = [
-  "/images/pg3.jpg",  
+  "/images/pg3.jpg",
   "/images/image2.jpg",
   "/images/image3.jpg",
   "/images/image4.jpg",
@@ -25,7 +25,7 @@ const Slider = () => {
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-[85vh] md:h-[70vh] sm:h-[40vh] object-content rounded-lg"
+              className="w-full h-[50vh] md:h-[40vh] sm:h-[30vh] object-cover rounded-lg"
             />
           </SwiperSlide>
         ))}

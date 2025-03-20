@@ -15,7 +15,6 @@ const Navbar = () => {
     "FACILITIES",
     "CIRCULARS",
     "HELP DESK",
-    "Syllabus 2025",
   ];
 
   return (
@@ -24,7 +23,7 @@ const Navbar = () => {
         {/* Logo */}
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-black font-semibold">
+        <ul className="hidden md:flex space-x-7 text-black font-semibold">
           {menuItems.map((item, index) => (
             <li key={index} className="px-4 py-2 hover:bg-black/10 rounded-md cursor-pointer">
               {item}
