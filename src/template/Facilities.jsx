@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 
 const Facilities = () => {
   const infrastructureData = [
-    { category: "Rooms", use: "Nursery to Std. XII Class", size: '24" x 20"', nos: 64 },
+    { category: "Rooms", use: "Nursery to Std. X Class", size: '24" x 20"', nos: 64 },
     { category: "Rooms", use: "Jr. & Sr. Staff Room", size: '24" x 20"', nos: 3 },
     { category: "Rooms", use: "Store", size: '15" x 8"', nos: 1 },
     { category: "Rooms", use: "Exam department", size: '15" x 8"', nos: 1 },
@@ -41,7 +41,7 @@ const Facilities = () => {
           <h6 className="text-lg md:text-xl">Narhan Estate (Samastipur)</h6>
         </div>
       </div>
-      
+
       <Navbar />
 
       <div className="bg-gray-100 min-h-screen flex flex-col items-center py-8">

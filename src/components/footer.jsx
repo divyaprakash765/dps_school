@@ -11,9 +11,9 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-3">CONTACT US ↓</h3>
           <p className="font-semibold">DELHI PUBLIC SCHOOL, </p>
           <p>Narhan Estate,Smastipur, Bihar - 831016</p>
-          <p><strong>Email:</strong> <a href="mailto:davnitjsr@yahoo.co.in" className="underline">davnitjsr@yahoo.co.in</a></p>
-          <p><strong>Phone:</strong> 0657-3562164</p>
-          <p><strong>Website:</strong> <a href="http://davnitjsr.org" className="underline">davnitjsr.org</a></p>
+          <p><strong>Email:</strong> <a href="mailto:dpsnarhan@gmail.com" className="underline">dpsnarhan@gmail.com</a></p>
+          <p><strong>Phone:</strong> 8210202407</p>
+          <p><strong>Website:</strong> <a href="http://davnitjsr.org" className="underline">dps.org</a></p>
           
           {/* Social Media Icons */}
           <div className="flex gap-3 mt-4">

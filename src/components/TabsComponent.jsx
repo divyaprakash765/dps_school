@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const tabs = ["Events", "Achievements", "Social Awareness"];
+const tabs = ["Events", "Achievements"];
 
 const data = {
   Achievements: [
@@ -12,16 +12,9 @@ const data = {
   ],
   Events: [
     {
-      title: "हिंदुस्तान ओलंपियाड 2024",
+      title: "Independence Day",
       desc: "Independence Day is marked throughout India with flag-raising ceremonies...",
       img: "/images/image3.jpg",
-    },
-  ],
-  "Social Awareness": [
-    {
-      title: "International Day of Yoga",
-      desc: "Reasons behind celebrating International Yoga Day on June 21...",
-      img: "https://th.bing.com/th/id/OIP.5NZtOEcB9T7K8o97cpRQwgHaEK?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     },
   ],
 };

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Navbar from "../components/nav";
 import Footer from "../components/footer";
 
@@ -19,7 +19,6 @@ const Achievements = () => {
     "/images/achievement-10.jpg",
     "/images/achievement-11.jpg",
     "/images/achievement-12.jpg",
-    "/images/achievement-13.jpg",
   ];
 
   return (
@@ -47,7 +46,7 @@ const Achievements = () => {
       <div className="flex flex-col items-center bg-gray-100 min-h-screen py-8">
         {/* Header */}
         <div className="bg-gradient-to-r from-purple-400 to-blue-400 w-full p-6 flex justify-between items-center shadow-md rounded-md max-w-6xl">
-          <h2 className="text-2xl font-semibold text-white">Achievements</h2>
+          <h2 className="text-2xl font-semibold text-white">Student Achievements</h2>
           {/* Back Button */}
           <button
             onClick={() => navigate(-1)}
@@ -55,10 +54,29 @@ const Achievements = () => {
           >
             ⬅
           </button>
+          
         </div>
+        <div to="/sonu" className="bg-white p-3 mt-10 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+  {/* Image */}
+  <img
+    src="/images/achievement-14.jpg"
+    alt="Achievement"
+    className="w-full h-64 object-cover rounded-lg"
+  />
 
+  {/* Text Content */}
+  <div className="mt-4 text-center">
+    <h3 className="text-lg font-semibold text-gray-900">Sonu Kumar</h3>
+    <p className="text-gray-700">GATE 2025 Qualified</p>
+    <p className="text-gray-700">JEE Advance 2023 SC PREP Rank - 2</p>
+    <p className="text-gray-600">Civil Engineering, NIT Jamshedpur</p>
+  <NavLink className="px-2 py-1 bg-blue-500 rounded-md relative top-1 hover:text-white" to="/sonu">Read more</NavLink>
+  </div>
+</div>
         {/* Image Gallery Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8 max-w-6xl px-4">
+ 
+
           {images.map((src, index) => (
             <div
               key={index}
@@ -71,6 +89,7 @@ const Achievements = () => {
               />
             </div>
           ))}
+                 
         </div>
       </div>
 
